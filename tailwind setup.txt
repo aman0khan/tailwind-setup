@@ -1,6 +1,6 @@
 1. npm init -y
 2. npm install -D tailwindcss
-3. npx tailwindcss init
+3. npx tailwindcss init( it create the tailwind config file
 4.  content: ["./folder name /*.{html,js}"],
 5. src folder (input.css)(@tailwind base;
 				  @tailwind components;
@@ -9,3 +9,4 @@
 7."dev":"tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
 8. index.html in dict and link output.css
 9.npm run dev
+npx tailwind init --full (it will create a full tailwind class file)
